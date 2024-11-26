@@ -43,20 +43,30 @@
     
 }
 
-
+/*Homepage (index.html)*/
 .banner{
-    
     display: flex;
-    border: 2px solid black;
+    border: 2px solid black; 
+    background-image: url("../Bilder/Balkenbild.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
 }
-
-
-
 
 .mainpic{
     height: 300px;
 }
 
+.homepage{
+    background-color: rgb(255, 199, 69);
+}
+
+.indexh2{
+    background-color: orange;
+}
+
+.indexh3{
+    text-decoration: underline orange;
+}
 
 
 .left,
@@ -74,7 +84,21 @@
 }
 
 
+/* Sheet for Aktivitäten page*/
+.background{
+    background-image: url("../Bilder/Trier-Stadt.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
+.Artikel{
+    background-color: rgba(245, 245, 245, 0.536);
+}
+
+h2 {
+    text-decoration: underline black;
+}
+/*----------------------------*/
 
 
 .karte_page{
